@@ -1,0 +1,53 @@
+*{
+    position:relative;
+    padding: 0;
+    margin: 0; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: black;
+    color: white; */
+}
+header{
+    
+    justify-content: space-between;
+    background-color: rgb(44, 39, 39);
+    color: white;
+    padding: 10px;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+}
+header ul{
+    display: flex;
+}
+header li{
+    list-style: none;
+    margin-left: 10px;
+}
+header a{
+    text-decoration: none;
+    color: white
+}
+p{
+    padding-top: 10px;
+}
+.imgcontainer{
+    background-image: url(pngegg\ \(6\).png);
+    height: 300px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    /* color: ; */
+}
+.headerN{
+    display: flex;
+}
+.medodd li{
+    list-style: none;
+}
+.medoM{
+    text-decoration: none;
+    color: black;
+}
+.medodd{
+    padding-top: 50px;
+}
