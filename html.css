@@ -48,24 +48,6 @@ overflow-x: hidden;
     text-decoration: none;
     color: white
 }
-/* .content ul{
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-} */
-ul.menu {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-.dropdown{
-    font-size: 15px;
-}
-ul.menu > li {
-    margin: 0;
-    padding: 0;
-    position: relative;
-}
 
 .medoM {
     text-decoration: none;
@@ -76,15 +58,20 @@ ul.menu > li {
     border: 1px solid #ccc;
     cursor: pointer;
 }
+.dropdown{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 .medoul {
     display: none;
-    position: absolute;
+    position:fixed;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-}
+    
+} 
 
 .medoul li a {
     padding: 12px 16px;
@@ -101,9 +88,10 @@ ul.menu > li {
     background-color: #f1f1f1;
 }
 
-.dropdown:hover .medoul {
+ .dropdown:hover .medoul
+ {
     display: block;
-}
+} 
 .pourra{
     background-color: rgb(44, 39, 39);
     padding: 20px;
@@ -137,20 +125,21 @@ ul.menu > li {
     font-size: 14px;
     color: #888;
 }
+.med:hover{
+    background-color: #f1f1f1;height: 30px;
+    height: 300px;
+    color: black;
+    border-radius: 5px 5px 5px 5px;
+
+}
+
 hr {
     margin: 10px 0;
 }
 
 .container1 h4{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 20px;
+   padding-bottom: 25px;
     /* background-color: rgba(0, 0, 0, 0.5); */
-    border-radius: 5px;
-    padding-top: 160px;
-    height: 10px;
 }
 .lireplus{
     background-color: yellow;
